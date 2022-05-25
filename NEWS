@@ -1,0 +1,5 @@
+## version 1.1
+### Bugfixes
+- Adding the setting of loading stats, graphics, and grDevices in namespace file according to CRAN's suggestions
+### Enhancements
+- Modifying legend parameters in GAIPE.RMSEA() for better graphics

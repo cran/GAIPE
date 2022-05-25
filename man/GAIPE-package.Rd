@@ -6,20 +6,20 @@
 Graphical Extension with Accuracy in Parameter Estimation (GAIPE)
 }
 \description{
-GAIPE implements graphical representation of accuracy in parameter estimation (AIPE) on RMSEA for sample size planning in structural equation modeling. Sample sizes suggested by RMSEA with AIPE method and power analysis approach can also be obtained separately using the provided functions.
+Implements graphical extension with accuracy in parameter estimation (AIPE) on RMSEA for sample size planning in structural equation modeling based on Lin, T.-Z. & Weng, L.-J. (2014) <doi: 10.1080/10705511.2014.915380>.
 }
 \details{
 \tabular{ll}{
 Package: \tab GAIPE\cr
 Type: \tab Package\cr
-Version: \tab 1.0\cr
-Date: \tab 2013-04-08\cr
+Version: \tab 1.1\cr
+Date: \tab 2022-05-24\cr
 License: \tab GPL (>= 2)\cr
 }
 }
 \author{Tzu-Yao Lin
-Maintainer: Tzu-Yao Lin <zaiyaolin@gmail.com>
+Maintainer: Yao Lin <zaiyaolin@gmail.com>
 }
 \references{
-Lin, T.-Y. & Weng, L.-J. (Under review). Graphical extension of sample size planning with AIPE on RMSEA. \emph{Structural Equation Modeling: A Multidisciplinary Journal.}
+Lin, T.-Z. & Weng, L.-J. (2014) Graphical Extension of Sample Size Planning With AIPE on RMSEA Using R. Structural Equation Modeling, 21, 482-490. doi: 10.1080/10705511.2014.915380
 }

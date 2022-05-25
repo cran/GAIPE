@@ -1,1 +1,5 @@
 exportPattern("^[[:alpha:]]+")
+importFrom("stats", qchisq, pchisq)
+importFrom("graphics", par,abline,text,arrows,points,axis,lines,legend,mtext,title,plot,strwidth)
+importFrom("grDevices", colors)
+

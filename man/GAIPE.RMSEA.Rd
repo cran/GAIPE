@@ -4,8 +4,8 @@
 \description{Draws the graph for sample size planning by GAIPE framework on RMSEA.}
 \usage{
 GAIPE.RMSEA(rmsea, df, width = NULL, clevel = 0.95, N = c(100, 1800, 15), 
-PA_method = c("exact.fit", "close.fit", "not.close.fit"), H0rmsea = NULL, 
-alpha = 0.05, power = c(0.8, 0.9, 0.95))
+PA_method = c("exact.fit", "close.fit", "not.close.fit"), 
+H0rmsea = NULL, alpha = 0.05, power = c(0.8, 0.9, 0.95))
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
@@ -22,10 +22,10 @@ vector of desired confidence interval widths to be highlighted in the graph.
 confidence level (e.g., .90, .95, etc.).
 }
   \item{N}{
-vector of specifying the range and the increment of sample size for drawing confidence intervals. Note that \code{N[1:2]} represents the range whereas \code{N[3]} represents the increment.
+vector of specifying the range and the increment of sample size for drawing confidence intervals. Note that N[1:2] represents the range whereas N[3] represents the increment.
 }
   \item{PA_method}{
-a character string specifying the desired hypothesis test for power analysis, can be one of \code{"exact.fit"}, \code{"close.fit"}, or \code{"not.close.fit"}.
+a character string specifying the desired hypothesis test for power analysis, can be one of "exact.fit", "close.fit", or "not.close.fit".
 }
   \item{H0rmsea}{
 RMSEA for null hypothesis.
@@ -38,17 +38,17 @@ vector of specifying the power values for which horizontal lines are to be added
 }
 }
 \details{
-If user wants to implement the power analysis based on RMSEA in GAIPE, the \code{PA_method} and \code{H0rmsea} have to be specified. In such a case, the first value of rmsea is the RMSEA for the alternative hypothesis.
+If user wants to implement the power analysis based on RMSEA in GAIPE, the PA_method and H0rmsea have to be specified. In such a case, the first value of rmsea is the RMSEA for the alternative hypothesis.
 }
 
 \references{
-Lin, T.-Y. & Weng, L.-J. (Under review). Graphical extension of sample size planning with AIPE on RMSEA. \emph{Structural Equation Modeling: A Multidisciplinary Journal.}
+Lin, T.-Z. & Weng, L.-J. (2014) Graphical Extension of Sample Size Planning With AIPE on RMSEA Using R. Structural Equation Modeling, 21, 482-490. doi:10.1080/10705511.2014.915380
 }
 \author{
 Tzu-Yao Lin
 }
 \examples{
-# Drawing the graphs in  Lin & Weng (Under review) #
+# Drawing the graphs in  Lin & Weng (2014) #
 
 # FIGURE 2 #
 GAIPE.RMSEA(rmsea=.05,df=30,width=c(.03,.04))

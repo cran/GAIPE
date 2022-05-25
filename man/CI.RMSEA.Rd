@@ -15,7 +15,7 @@ CI.RMSEA(rmsea,df,N,clevel=.95)
 Return the upper and lower bound as well as the expected or observed value of the RMSEA.
 }
 \references{
-Browne, M. W., & Cudeck, R. (1992). Alternative ways of assessing model fit. \emph{Sociological Methods and Research, 21}, 230-258.}
+Browne, M. W., & Cudeck, R. (1992). Alternative ways of assessing model fit. Sociological Methods and Research, 21(2), 230-258. doi: 10.1177/0049124192021002005}
 \author{Tzu-Yao Lin}
 \examples{
 CI.RMSEA(rmsea=.05,df=30,N=200,clevel=.95)
